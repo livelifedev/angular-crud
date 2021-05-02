@@ -1,0 +1,20 @@
+{
+  "creatures": [
+    {
+      "id": 1,
+      "name": "Striped Jaguar",
+      "description": "Super fast, quiet on its feet. Was spotted snacking on a bird.",
+      "location": "Peru",
+      "witnessCount": 5,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "name": "White Gorilla",
+      "description": "Awesome",
+      "location": "Africa",
+      "witnessCount": 1,
+      "verified": true
+    }
+  ]
+}
