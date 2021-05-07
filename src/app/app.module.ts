@@ -9,15 +9,17 @@ import { MaterialModule } from './material.module';
 import { NavComponent } from './nav/nav.component';
 import { HomeComponent } from './home/home.component';
 import { CreaturesService } from './shared/services/creatures.service';
+import { CreaturesModule } from './creatures/creatures.module';
 
 @NgModule({
   declarations: [AppComponent, NavComponent, HomeComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
     HttpClientModule,
+    CreaturesModule,
+    AppRoutingModule,
   ],
   providers: [CreaturesService],
   bootstrap: [AppComponent],
